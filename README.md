@@ -1,6 +1,9 @@
 # docker-autoheal
 
-Monitor and restart unhealthy docker containers. 
+Willfarrell's docker-autoheal fork with extended architecture support.
+Currently supported architectures are **amd64** and **armhf** (**armv7**) for RaspberryPi.
+
+Monitor and restart unhealthy docker containers.
 This functionality was proposed to be included with the addition of `HEALTHCHECK`, however didn't make the cut.
 This container is a stand-in till there is native support for `--exit-on-unhealthy` https://github.com/docker/docker/pull/22719.
 
@@ -20,7 +23,7 @@ docker run -d \
 ```
 a) Apply the label `autoheal=true` to your container to have it watched.
 
-b) Set ENV `AUTOHEAL_CONTAINER_LABEL=all` to watch all running containers. 
+b) Set ENV `AUTOHEAL_CONTAINER_LABEL=all` to watch all running containers.
 
 c) Set ENV `AUTOHEAL_CONTAINER_LABEL` to existing label name that has the value `true`.
 
