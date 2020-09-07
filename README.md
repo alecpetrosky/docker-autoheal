@@ -1,7 +1,7 @@
 # docker-autoheal
 
 Willfarrell's docker-autoheal fork with extended architecture support.
-Currently supported architectures are **amd64** and **armhf** (**armv7**) for RaspberryPi.
+Currently supported architectures are **linux/amd64, linux/arm64, linux/386** and **linux/arm/v7** (armhf for RaspberryPi).
 
 Monitor and restart unhealthy docker containers.
 This functionality was proposed to be included with the addition of `HEALTHCHECK`, however didn't make the cut.
