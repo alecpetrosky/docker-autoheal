@@ -9,6 +9,8 @@ Monitor and restart unhealthy docker containers.
 This functionality was proposed to be included with the addition of `HEALTHCHECK`, however didn't make the cut.
 This container is a stand-in till there is native support for `--exit-on-unhealthy` https://github.com/docker/docker/pull/22719.
 
+Docker image: https://hub.docker.com/r/alecpetrosky/autoheal
+
 ## Supported tags and Dockerfile links
 - [`latest` (*Dockerfile*)](https://github.com/willfarrell/docker-autoheal/blob/master/Dockerfile)
 
