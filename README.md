@@ -1,5 +1,7 @@
 # docker-autoheal
 
+> :warning: **PROJECT UNMAINTAINED**: This container is no longer maintained as this fork [parent](https://github.com/willfarrell/docker-autoheal/) project now supports multiarch out-of-the-box.
+
 Willfarrell's docker-autoheal fork with extended architecture support.
 Currently supported architectures are **linux/amd64, linux/arm64, linux/386** and **linux/arm/v7** (armhf for RaspberryPi).
 
